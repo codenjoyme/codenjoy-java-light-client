@@ -1,4 +1,4 @@
-package com.codenjoy.clients.java.lite.games.mollymage;
+package com.codenjoy.dojo.lite.games.mollymage;
 
 public enum MollyMageAction {
     LEFT, RIGHT, UP, DOWN,

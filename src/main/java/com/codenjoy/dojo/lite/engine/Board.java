@@ -1,4 +1,4 @@
-package com.codenjoy.clients.java.lite.engine;
+package com.codenjoy.dojo.lite.engine;
 
 import java.util.Optional;
 import java.util.Set;

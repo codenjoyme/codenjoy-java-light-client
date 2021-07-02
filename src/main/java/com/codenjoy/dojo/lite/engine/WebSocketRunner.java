@@ -1,4 +1,4 @@
-package com.codenjoy.clients.java.lite.engine;
+package com.codenjoy.dojo.lite.engine;
 
 import org.eclipse.jetty.websocket.api.Session;
 import org.eclipse.jetty.websocket.api.annotations.*;
@@ -15,7 +15,7 @@ import static java.util.regex.Pattern.compile;
 public class WebSocketRunner {
 
     private static final Pattern URL_REGEX = compile(
-            "(?<scheme>http|https)://(?<host>.*)/codenjoy-contest/board/player/(?<player>\\w*)\\?code=(?<code>\\w*)");
+            "(?<scheme>http|https)://(?<host>.+)/codenjoy-contest/board/player/(?<player>\\w+)\\?code=(?<code>\\d+)");
 
     private final String token;
     private final WebSocketClient wsClient;
@@ -66,7 +66,7 @@ public class WebSocketRunner {
 
         @OnWebSocketClose
         public void onClose(int code, String message) {
-            System.out.println("close websocket connection [" + code + "] - " + message);
+            System.out.println("websocket connection has been closed [" + code + "] - " + message);
         }
 
         @OnWebSocketError

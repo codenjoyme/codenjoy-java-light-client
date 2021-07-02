@@ -1,4 +1,4 @@
-package com.codenjoy.clients.java.lite.games.mollymage;
+package com.codenjoy.dojo.lite.games.mollymage;
 
 import org.junit.jupiter.api.Test;
 

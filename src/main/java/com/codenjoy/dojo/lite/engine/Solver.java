@@ -1,4 +1,4 @@
-package com.codenjoy.clients.java.lite.engine;
+package com.codenjoy.dojo.lite.engine;
 
 public interface Solver {
 

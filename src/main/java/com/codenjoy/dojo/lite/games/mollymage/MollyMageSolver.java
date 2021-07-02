@@ -1,6 +1,6 @@
-package com.codenjoy.clients.java.lite.games.mollymage;
+package com.codenjoy.dojo.lite.games.mollymage;
 
-import com.codenjoy.clients.java.lite.engine.Solver;
+import com.codenjoy.dojo.lite.engine.Solver;
 
 public class MollyMageSolver implements Solver {
 

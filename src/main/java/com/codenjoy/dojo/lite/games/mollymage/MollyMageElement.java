@@ -1,4 +1,4 @@
-package com.codenjoy.clients.java.lite.games.mollymage;
+package com.codenjoy.dojo.lite.games.mollymage;
 
 import java.util.Arrays;
 import java.util.Set;

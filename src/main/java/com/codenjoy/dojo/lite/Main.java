@@ -1,8 +1,8 @@
-package com.codenjoy.clients.java.lite;
+package com.codenjoy.dojo.lite;
 
-import com.codenjoy.clients.java.lite.engine.Solver;
-import com.codenjoy.clients.java.lite.engine.WebSocketRunner;
-import com.codenjoy.clients.java.lite.games.mollymage.MollyMageSolver;
+import com.codenjoy.dojo.lite.engine.Solver;
+import com.codenjoy.dojo.lite.engine.WebSocketRunner;
+import com.codenjoy.dojo.lite.games.mollymage.MollyMageSolver;
 
 import java.util.NoSuchElementException;
 
@@ -19,7 +19,6 @@ public class Main {
         Solver solver = determineGameSolver(game);
         new WebSocketRunner(url).run(solver);
     }
-
 
     private static Solver determineGameSolver(String game) {
         switch (game) {
